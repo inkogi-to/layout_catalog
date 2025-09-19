@@ -8,12 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
   padding: 0 50px;
   background-color: var(--color-white);
   box-shadow: 0 2px 4px 0 #0000000d;
 
   &__logo-image {
     display: inline-block;
+    height: 40px;
     vertical-align: middle;
   }
 
@@ -34,7 +36,8 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
     height: 60px;
     text-decoration: none;
     color: var(--color-black);
